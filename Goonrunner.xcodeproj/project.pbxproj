@@ -1,0 +1,456 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8B02E31E1AF28EFA00328946 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B02E31D1AF28EFA00328946 /* main.m */; };
+		8B02E3211AF28EFA00328946 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B02E3201AF28EFA00328946 /* AppDelegate.m */; };
+		8B02E3241AF28EFA00328946 /* Goonrunner.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8B02E3221AF28EFA00328946 /* Goonrunner.xcdatamodeld */; };
+		8B02E3271AF28EFA00328946 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B02E3261AF28EFA00328946 /* MasterViewController.m */; };
+		8B02E32A1AF28EFA00328946 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B02E3291AF28EFA00328946 /* DetailViewController.m */; };
+		8B02E32D1AF28EFA00328946 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B02E32B1AF28EFA00328946 /* Main.storyboard */; };
+		8B02E32F1AF28EFA00328946 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B02E32E1AF28EFA00328946 /* Images.xcassets */; };
+		8B02E3321AF28EFA00328946 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B02E3301AF28EFA00328946 /* LaunchScreen.xib */; };
+		8B02E33E1AF28EFA00328946 /* GoonrunnerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B02E33D1AF28EFA00328946 /* GoonrunnerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8B02E3381AF28EFA00328946 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B02E3101AF28EFA00328946 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B02E3171AF28EFA00328946;
+			remoteInfo = Goonrunner;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8B02E3181AF28EFA00328946 /* Goonrunner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Goonrunner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B02E31C1AF28EFA00328946 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B02E31D1AF28EFA00328946 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8B02E31F1AF28EFA00328946 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8B02E3201AF28EFA00328946 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8B02E3231AF28EFA00328946 /* Goonrunner.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Goonrunner.xcdatamodel; sourceTree = "<group>"; };
+		8B02E3251AF28EFA00328946 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		8B02E3261AF28EFA00328946 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		8B02E3281AF28EFA00328946 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		8B02E3291AF28EFA00328946 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		8B02E32C1AF28EFA00328946 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8B02E32E1AF28EFA00328946 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8B02E3311AF28EFA00328946 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		8B02E3371AF28EFA00328946 /* GoonrunnerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoonrunnerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B02E33C1AF28EFA00328946 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B02E33D1AF28EFA00328946 /* GoonrunnerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GoonrunnerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8B02E3151AF28EFA00328946 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B02E3341AF28EFA00328946 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8B02E30F1AF28EFA00328946 = {
+			isa = PBXGroup;
+			children = (
+				8B02E31A1AF28EFA00328946 /* Goonrunner */,
+				8B02E33A1AF28EFA00328946 /* GoonrunnerTests */,
+				8B02E3191AF28EFA00328946 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8B02E3191AF28EFA00328946 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8B02E3181AF28EFA00328946 /* Goonrunner.app */,
+				8B02E3371AF28EFA00328946 /* GoonrunnerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8B02E31A1AF28EFA00328946 /* Goonrunner */ = {
+			isa = PBXGroup;
+			children = (
+				8B02E31F1AF28EFA00328946 /* AppDelegate.h */,
+				8B02E3201AF28EFA00328946 /* AppDelegate.m */,
+				8B02E3251AF28EFA00328946 /* MasterViewController.h */,
+				8B02E3261AF28EFA00328946 /* MasterViewController.m */,
+				8B02E3281AF28EFA00328946 /* DetailViewController.h */,
+				8B02E3291AF28EFA00328946 /* DetailViewController.m */,
+				8B02E32B1AF28EFA00328946 /* Main.storyboard */,
+				8B02E32E1AF28EFA00328946 /* Images.xcassets */,
+				8B02E3301AF28EFA00328946 /* LaunchScreen.xib */,
+				8B02E3221AF28EFA00328946 /* Goonrunner.xcdatamodeld */,
+				8B02E31B1AF28EFA00328946 /* Supporting Files */,
+			);
+			path = Goonrunner;
+			sourceTree = "<group>";
+		};
+		8B02E31B1AF28EFA00328946 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8B02E31C1AF28EFA00328946 /* Info.plist */,
+				8B02E31D1AF28EFA00328946 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8B02E33A1AF28EFA00328946 /* GoonrunnerTests */ = {
+			isa = PBXGroup;
+			children = (
+				8B02E33D1AF28EFA00328946 /* GoonrunnerTests.m */,
+				8B02E33B1AF28EFA00328946 /* Supporting Files */,
+			);
+			path = GoonrunnerTests;
+			sourceTree = "<group>";
+		};
+		8B02E33B1AF28EFA00328946 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8B02E33C1AF28EFA00328946 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8B02E3171AF28EFA00328946 /* Goonrunner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B02E3411AF28EFA00328946 /* Build configuration list for PBXNativeTarget "Goonrunner" */;
+			buildPhases = (
+				8B02E3141AF28EFA00328946 /* Sources */,
+				8B02E3151AF28EFA00328946 /* Frameworks */,
+				8B02E3161AF28EFA00328946 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Goonrunner;
+			productName = Goonrunner;
+			productReference = 8B02E3181AF28EFA00328946 /* Goonrunner.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8B02E3361AF28EFA00328946 /* GoonrunnerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B02E3441AF28EFA00328946 /* Build configuration list for PBXNativeTarget "GoonrunnerTests" */;
+			buildPhases = (
+				8B02E3331AF28EFA00328946 /* Sources */,
+				8B02E3341AF28EFA00328946 /* Frameworks */,
+				8B02E3351AF28EFA00328946 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B02E3391AF28EFA00328946 /* PBXTargetDependency */,
+			);
+			name = GoonrunnerTests;
+			productName = GoonrunnerTests;
+			productReference = 8B02E3371AF28EFA00328946 /* GoonrunnerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8B02E3101AF28EFA00328946 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "brett bernstein";
+				TargetAttributes = {
+					8B02E3171AF28EFA00328946 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					8B02E3361AF28EFA00328946 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 8B02E3171AF28EFA00328946;
+					};
+				};
+			};
+			buildConfigurationList = 8B02E3131AF28EFA00328946 /* Build configuration list for PBXProject "Goonrunner" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8B02E30F1AF28EFA00328946;
+			productRefGroup = 8B02E3191AF28EFA00328946 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8B02E3171AF28EFA00328946 /* Goonrunner */,
+				8B02E3361AF28EFA00328946 /* GoonrunnerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8B02E3161AF28EFA00328946 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B02E32D1AF28EFA00328946 /* Main.storyboard in Resources */,
+				8B02E3321AF28EFA00328946 /* LaunchScreen.xib in Resources */,
+				8B02E32F1AF28EFA00328946 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B02E3351AF28EFA00328946 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8B02E3141AF28EFA00328946 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B02E32A1AF28EFA00328946 /* DetailViewController.m in Sources */,
+				8B02E3271AF28EFA00328946 /* MasterViewController.m in Sources */,
+				8B02E3241AF28EFA00328946 /* Goonrunner.xcdatamodeld in Sources */,
+				8B02E3211AF28EFA00328946 /* AppDelegate.m in Sources */,
+				8B02E31E1AF28EFA00328946 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B02E3331AF28EFA00328946 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B02E33E1AF28EFA00328946 /* GoonrunnerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8B02E3391AF28EFA00328946 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B02E3171AF28EFA00328946 /* Goonrunner */;
+			targetProxy = 8B02E3381AF28EFA00328946 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8B02E32B1AF28EFA00328946 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B02E32C1AF28EFA00328946 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8B02E3301AF28EFA00328946 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B02E3311AF28EFA00328946 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8B02E33F1AF28EFA00328946 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8B02E3401AF28EFA00328946 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8B02E3421AF28EFA00328946 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Goonrunner/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8B02E3431AF28EFA00328946 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Goonrunner/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8B02E3451AF28EFA00328946 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GoonrunnerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Goonrunner.app/Goonrunner";
+			};
+			name = Debug;
+		};
+		8B02E3461AF28EFA00328946 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GoonrunnerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Goonrunner.app/Goonrunner";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8B02E3131AF28EFA00328946 /* Build configuration list for PBXProject "Goonrunner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B02E33F1AF28EFA00328946 /* Debug */,
+				8B02E3401AF28EFA00328946 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B02E3411AF28EFA00328946 /* Build configuration list for PBXNativeTarget "Goonrunner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B02E3421AF28EFA00328946 /* Debug */,
+				8B02E3431AF28EFA00328946 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8B02E3441AF28EFA00328946 /* Build configuration list for PBXNativeTarget "GoonrunnerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B02E3451AF28EFA00328946 /* Debug */,
+				8B02E3461AF28EFA00328946 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8B02E3221AF28EFA00328946 /* Goonrunner.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8B02E3231AF28EFA00328946 /* Goonrunner.xcdatamodel */,
+			);
+			currentVersion = 8B02E3231AF28EFA00328946 /* Goonrunner.xcdatamodel */;
+			path = Goonrunner.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8B02E3101AF28EFA00328946 /* Project object */;
+}
