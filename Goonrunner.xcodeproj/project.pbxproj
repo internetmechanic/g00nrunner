@@ -16,6 +16,8 @@
 		8B02E32F1AF28EFA00328946 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B02E32E1AF28EFA00328946 /* Images.xcassets */; };
 		8B02E3321AF28EFA00328946 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B02E3301AF28EFA00328946 /* LaunchScreen.xib */; };
 		8B02E33E1AF28EFA00328946 /* GoonrunnerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B02E33D1AF28EFA00328946 /* GoonrunnerTests.m */; };
+		8B02E3491AFBD4DC00328946 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B02E3481AFBD4DC00328946 /* GameKit.framework */; };
+		8B02E34B1AFC1B3F00328946 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B02E34A1AFC1B3E00328946 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,9 @@
 		8B02E3371AF28EFA00328946 /* GoonrunnerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoonrunnerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B02E33C1AF28EFA00328946 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8B02E33D1AF28EFA00328946 /* GoonrunnerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GoonrunnerTests.m; sourceTree = "<group>"; };
+		8B02E3471AFBD4C900328946 /* Goonrunner.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Goonrunner.entitlements; sourceTree = "<group>"; };
+		8B02E3481AFBD4DC00328946 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		8B02E34A1AFC1B3E00328946 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +57,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B02E34B1AFC1B3F00328946 /* MapKit.framework in Frameworks */,
+				8B02E3491AFBD4DC00328946 /* GameKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +75,8 @@
 		8B02E30F1AF28EFA00328946 = {
 			isa = PBXGroup;
 			children = (
+				8B02E34A1AFC1B3E00328946 /* MapKit.framework */,
+				8B02E3481AFBD4DC00328946 /* GameKit.framework */,
 				8B02E31A1AF28EFA00328946 /* Goonrunner */,
 				8B02E33A1AF28EFA00328946 /* GoonrunnerTests */,
 				8B02E3191AF28EFA00328946 /* Products */,
@@ -86,6 +95,7 @@
 		8B02E31A1AF28EFA00328946 /* Goonrunner */ = {
 			isa = PBXGroup;
 			children = (
+				8B02E3471AFBD4C900328946 /* Goonrunner.entitlements */,
 				8B02E31F1AF28EFA00328946 /* AppDelegate.h */,
 				8B02E3201AF28EFA00328946 /* AppDelegate.m */,
 				8B02E3251AF28EFA00328946 /* MasterViewController.h */,
@@ -176,6 +186,18 @@
 				TargetAttributes = {
 					8B02E3171AF28EFA00328946 = {
 						CreatedOnToolsVersion = 6.3;
+						DevelopmentTeam = 3XQG637NU6;
+						SystemCapabilities = {
+							com.apple.GameCenter = {
+								enabled = 1;
+							};
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+							com.apple.iCloud = {
+								enabled = 0;
+							};
+						};
 					};
 					8B02E3361AF28EFA00328946 = {
 						CreatedOnToolsVersion = 6.3;
@@ -359,9 +381,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Goonrunner/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -369,9 +395,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Goonrunner/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -428,6 +458,7 @@
 				8B02E3431AF28EFA00328946 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8B02E3441AF28EFA00328946 /* Build configuration list for PBXNativeTarget "GoonrunnerTests" */ = {
 			isa = XCConfigurationList;
@@ -436,6 +467,7 @@
 				8B02E3461AF28EFA00328946 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
